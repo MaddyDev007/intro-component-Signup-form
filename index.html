@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="card1">
+                <h1>Learn to code by watching others</h1>
+                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                    understanding how developers think is invaluable.</p>
+            </div>
+            <div class="card2">
+                <div class="top">
+                    <p> <span class="bold">Try it free 7 days</span>
+                    then $20/mo. thereafter</p>
+                </div>
+                <div class="bottom">
+                    <div class="form">
+                        <form action="">
+                            <div class="input1">
+                                <input id="firstname" type="text" placeholder="First Name" required>
+                                <img src="icon-error.svg" alt="">
+                            </div>
+                                
+                                <p class="error">First Name cannot be empty</p>
+                           
+                            <div class="input2">
+                                <input id="lastname" type="text" placeholder="Last Name" required>
+                                <img src="icon-error.svg" alt="">
+                            </div>
+                                <p class="error">Last Name cannot be empty</p>
+                            
+                            <div class="input3">
+                                <input id="email" type="email" placeholder="Email Address" required>
+                                <img src="icon-error.svg" alt="">
+                            </div>
+                                <p class="error">Looks like this is not an email</p>
+                            
+                                <div class="input4">
+                                    <input id="password" type="password" placeholder="Password" required>
+                                    <img src="icon-error.svg" alt="">
+                                </div>
+                                <p class="error">Password cannot be empty</p>
+                                <p class="error">Password must atleast contains 8 characters</p>
+                            
+                            <button id="submit" type="submit">Claim your free trial</button>
+                            <p class="info">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
